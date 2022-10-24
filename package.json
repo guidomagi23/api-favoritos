@@ -1,0 +1,22 @@
+{
+  "name": "api-resful-favoritos",
+  "version": "1.0.0",
+  "description": "Proyecto de Api Restful del curso de NodeJs y Angular 2",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Guido Magi",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "mongodb": "^4.11.0",
+    "mongoose": "^6.6.6",
+    "update-mongo": "^0.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
